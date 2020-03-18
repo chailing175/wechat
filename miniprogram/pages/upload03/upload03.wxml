@@ -1,0 +1,7 @@
+<!--pages/upload03/upload03.wxml-->
+<text>pages/upload03/upload03.wxml</text>
+<view bindtap="upload">上传图片</view>
+<view bindtap="find">查询图片</view>
+<view class="container">
+ <image   wx:for="{{list}}" wx:key="index" src="{{item.fileid}}"></image>
+</view>
